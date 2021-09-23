@@ -3136,6 +3136,71 @@
     "version": "0.6.1+commit.e6f7d5a4.Emscripten.clang"
   },
   "networks": {
+    "5": {
+      "events": {
+        "0x6549102bed7d1bb5ec529ee14e2ca60ffc1f47f66d4cc6ca713220613cc64c25": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "title",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "description",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "bool",
+              "name": "done",
+              "type": "bool"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "createdAt",
+              "type": "uint256"
+            }
+          ],
+          "name": "TaskCreated",
+          "type": "event",
+          "signature": "0x6549102bed7d1bb5ec529ee14e2ca60ffc1f47f66d4cc6ca713220613cc64c25"
+        },
+        "0x3a359256e016dcfa8426ec503e08484999d6fcfb8c0f6084dc9e63374d838429": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "bool",
+              "name": "done",
+              "type": "bool"
+            }
+          ],
+          "name": "TaskToggledDone",
+          "type": "event",
+          "signature": "0x3a359256e016dcfa8426ec503e08484999d6fcfb8c0f6084dc9e63374d838429"
+        }
+      },
+      "links": {},
+      "address": "0xCFfcB27dF88De1C1199077c5A54258dE1A5BAf98",
+      "transactionHash": "0x2844997405462b2783f810a6748336d8dc2034fbf12ac82b9c88c41c7dadd462"
+    },
     "5778": {
       "events": {
         "0xe04b238473f76560b59321a44de66c30d1805378858d062d20174c0ce97d40a8": {
@@ -3243,7 +3308,7 @@
     }
   },
   "schemaVersion": "3.0.22",
-  "updatedAt": "2021-09-23T18:47:23.893Z",
+  "updatedAt": "2021-09-23T19:19:35.621Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
